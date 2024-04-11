@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.headerbody{
+  background-color: #eff1f2d2;
+}
+#overview{
+  border: 1px solid;
+}
+
+#overviewStatus{
+  border: 1px solid;
+  margin-left: 15px;
+}
+#title{
+  font-weight: bold;
+}
+
+.boschHeader{
+  height: 50px;
+  float: left;
+}
+
+.boschHeaderrow{
+  width: 100%;
+}
+
+#chc{
+background-color: #9e2896;
+color: white;
+}
+#chBuffer{
+  background-color: #007bc0;
+color: white;
+}
+#chattrition{
+  background-color: #18837e;
+color: white;
+}
+#chforecast{
+  background-color: #00884a;
+  color: white;
+}
+#overviewStatus td{
+  border: 1px solid;
+}
+#overviewStatusOne{
+  text-align: left;
+}
+#overviewStatusTwo{
+  border: 1px solid;
+  text-align: right;
+  width: 50px;
+}
+#currentquarter{
+  background-color: rgb(207, 210, 212);
+}
+#overviewquarter{
+  border: 1px solid;
+  margin-left: 10px;
+}
+#overviewquarter td{
+  border: 1px solid;
+}
+#overviewquarter tr{
+  border: 1px solid;
+}
+#cumulativegraph{
+  margin-left: 10px;
+}
+
+#overviewThree{
+  margin-left: 50px;
+}
+
+#overviewtable{
+  text-align: left;
+}
+#overviewtableint{
+  text-align: right;
+}
+#perchart{
+  left: 10px;
+}
+
+#overviewperfomance{
+ border: 1px solid;
+}
+
+#firsttable{
+  text-align: left;
+}
+
+#dateorder{
+  text-align: left;
+}
+#overviewperfomanceOne{
+  border: 1px solid;
+}
+
+#oneup {
+  color:#00884a;
+}
+
+#onedown{
+  color: #ed0007;
+}
+
+#echart{
+  width: 400px;
+  min-width: 100%;
+  height: 400px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+	margin: 0 auto;
+	height: 64px;
+	width: 64px;
+	animation: rotate 0.8s infinite linear;
+	border: 5px solid firebrick;
+	border-right-color: transparent;
+	border-radius: 50%;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#overlay {
+	background: #ffffff;
+	color: #666666;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 5000;
+	top: 0;
+	left: 0;
+	float: left;
+	text-align: center;
+	padding-top: 25%;
+	opacity: .80;
+}
+
+#yearlydata{
+  border: 1px solid;
+  margin-left: 10px;
+}
+
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
